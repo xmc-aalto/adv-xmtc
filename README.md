@@ -19,14 +19,14 @@ The code has been test by the following packages:
 * requests==2.25.1
 * tqdm==4.60.0
 
-## A small experiment on Wikipedia-31K with bin size equals to 10
+## A small experiment on Wikipedia-31K with only 10 samples per bin
 
 Downolad the data and the APLC_XLNet model trained on this data as follows:
 ```bash
 bash download_data_model.sh
 ```
 
-For preprocessing the data and run positive-targeted attacks with bin size equals to , run the following:
+For preprocessing the data and run positive-targeted attacks with 10 samples per bin, run the following:
 ```bash
 bash pos_attack.sh
 ```
