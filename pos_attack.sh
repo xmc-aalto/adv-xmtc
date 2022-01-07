@@ -20,7 +20,8 @@ mkdir -p $result_path
 for file in "$data_path"/*;do
   file=${file##*/}
   if [[ "$file" == *"pos"* ]];then
-    echo "\nRunning adversarial attacks on $file"
+    echo
+    echo "Running adversarial attacks on $file"
     python -W ignore adv_xmtc.py \
     --data_dir $data_path \
     --mlm_path bert-base-cased \
