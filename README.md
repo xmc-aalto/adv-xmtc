@@ -1,4 +1,4 @@
-**[Adversarial Examples for Extreme Multilabel Text Classification](https://arxiv.org/pdf/2112.07512.pdf)
+[**Adversarial Examples for Extreme Multilabel Text Classification**](https://arxiv.org/pdf/2112.07512.pdf)
 
 The code is adapted from the source codes of BERT-ATTACK [1], APLC_XLNet [2], and AttentionXML [3]
 
