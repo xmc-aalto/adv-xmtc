@@ -1,9 +1,9 @@
-Adversarial Examples for Extreme Multilabel Text Classification
+[Adversarial Examples for Extreme Multilabel Text Classification](https://arxiv.org/pdf/2112.07512.pdf)
 
 The code is adapted from the source codes of BERT-ATTACK [1], APLC_XLNet [2], and AttentionXML [3]
 
 ## Requirements
-The code has been test by the following packages:
+The code has been tested by the following packages:
 
 * python==3.6.13
 * boto3==1.17.70
@@ -37,9 +37,11 @@ bash resutls.sh
 ```
 
 
-## Reference
+## References
 [1] Li et al., [BERT-ATTACK: Adversarial Attack Against BERT Using BERT](https://arxiv.org/abs/2004.09984), EMNLP 2020
 
 [2] Ye et al., [Pretrained Generalized Autoregressive Model with Adaptive Probabilistic Label Clusters for Extreme Multi-label Text Classification](http://arxiv.org/abs/2007.02439), ICML 2020
 
 [3] You et al., [AttentionXML: Label Tree-based Attention-Aware Deep Model for High-Performance Extreme Multi-Label Text Classification](https://arxiv.org/abs/1811.01727), NeurIPS 2019
+
+[4] Qaraei and Babbar, [Adversarial Examples for Extreme Multilabel Text Classification](https://arxiv.org/pdf/2112.07512.pdf), Arxiv 2021
