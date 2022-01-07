@@ -26,7 +26,12 @@ Downolad the data and the APLC_XLNet model trained on this data as follows:
 bash download_data_model.sh
 ```
 
-For preprocessing the data and run positive-targeted attacks with 10 samples per bin, run the following:
+For preprocessing the data, run the following:
+```bash
+bash preprocess.sh
+```
+
+To run positive-targeted attacks with 10 samples per bin, run the following:
 ```bash
 bash pos_attack.sh
 ```
