@@ -38,7 +38,7 @@ bash pos_attack.sh
 
 To check the results of the attacks, run the following:
 ```bash
-bash resutls.sh
+bash results.sh
 ```
 
 
